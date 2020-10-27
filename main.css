@@ -1,18 +1,37 @@
 body{
+    margin: 0;
+}
+header{
     background: #999999;
-    font-family: Arial;
+    color: white;
+    padding: 15px 15px 0 15px;
 }
-
-h1, h2, li{
-    color: rgb(3, 2, 0);
+header h1{
+    margin: 0;
 }
-
-a{
-    color: rgb(73, 0, 245);
+nav ul{
+    margin: 0;
+    padding: 15px;
 }
+nav ul li{
+    background: rgb(247, 247, 223);
+    display: inline-flex;
+    list-style: none;
+    padding: 5px 15px;
+}
+.row{
+    clear: both;
 
-p{
-    background: grey;
-    color: honeydew;
-    padding: 10px;
+}
+.col{
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 10px .5%;
+    float: left;
+    margin: .5%;
+    width: 31%;
+}
+footer{
+    clear: both;
 }
