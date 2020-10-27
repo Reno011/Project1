@@ -1,0 +1,18 @@
+body{
+    background: #999999;
+    font-family: Arial;
+}
+
+h1, h2, li{
+    color: rgb(3, 2, 0);
+}
+
+a{
+    color: rgb(73, 0, 245);
+}
+
+p{
+    background: grey;
+    color: honeydew;
+    padding: 10px;
+}
