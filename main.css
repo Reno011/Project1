@@ -11,12 +11,12 @@ nav{
     text-align: right;
 }
 nav ul{
-    display: inline-block;
+    display: inline;
     margin: 0;
     padding: 15px;
 }
 nav ul li{
-    display: inline-block;
+    display: inline;
     list-style: none;
     padding: 5px 15px;
 }
